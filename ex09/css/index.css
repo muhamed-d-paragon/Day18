@@ -1,0 +1,120 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+header .container {
+  background-color: darkgray;
+  display: flex;
+  height: 100%;
+}
+
+#branding {
+  flex: 2;
+}
+nav {
+  flex: 1;
+}
+ul {
+  display: flex;
+  height: fit-content;
+  margin-left: 5%;
+  margin-bottom: 0;
+}
+li {
+  padding-right: 5%;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 13pt;
+}
+.highlight {
+  color: orangered;
+}
+img {
+  height: 30%;
+  width: 30%;
+}
+#showcase {
+  width: 100%;
+  height: 70%;
+  background: url("../img/gigi-logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+#showcase .container {
+  position: absolute;
+  width: 100%;
+  margin-top: 7%;
+}
+
+#showcase .container h1 {
+  display: block;
+  color: gray;
+  text-align: center;
+  font-size: 30pt;
+}
+
+#showcase .container p {
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+#newsletter {
+  background-color: gray;
+  display: flex;
+}
+
+#newsletter .container {
+  display: flex;
+  width: 100%;
+}
+
+#newsletter .container h1 {
+  flex: 1;
+  color: white;
+  padding-left: 10%;
+}
+
+#newsletter .container form {
+  flex: 1;
+  margin-left: 35%;
+}
+
+#newsletter .container input {
+  margin-top: 5%;
+}
+
+.button_1 {
+  background-color: orangered;
+  color: white;
+}
+
+#boxes .container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+
+.box {
+  flex-basis: 28%;
+}
+footer {
+  background-color: orangered;
+  color: white;
+  display: block;
+  padding-bottom: 5px;
+  text-align: center;
+}
+footer p {
+  padding-top: 1%;
+}
